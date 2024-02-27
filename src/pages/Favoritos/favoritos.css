@@ -1,40 +1,70 @@
-.meus-filmes{
+.meus-filmes {
     margin-top: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.meus-filmes h1{
-margin-bottom: 18px;
-}
-.meus-filmes span{
-   font-size: 18px;
-}
-
-.meus-filmes ul{
- width: 720px;
+.meus-filmes h1 {
+    margin-bottom: 18px;
+    text-align: center;
+    color: #333;
 }
 
-.meus-filmes ul li{
-    list-style: none;
+.meus-filmes span {
+    font-size: 18px;
+ }
+
+.meus-filmes ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.meus-filmes ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 14px;
-
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
-.meus-filmes div{
+.meus-filmes li span {
+    font-weight: bold;
+}
+
+.meus-filmes div {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.meus-filmes div a{
-
+.meus-filmes div a {
     text-decoration: none;
     color: #116feb;
     margin-right: 14px;
+}
 
+.meus-filmes div button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.meus-filmes div button:hover {
+    background-color: #d00;
 }
